@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	lis, err := rpcsv.RPCServe("8800")
+	lis, err := rpcsv.RPCServeWithCode("8800")
 	if goutils.CheckErr(err) {
 		return
 	}

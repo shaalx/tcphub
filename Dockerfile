@@ -1,4 +1,4 @@
-FROM golang
+FROM daocloud.io/library/golang:1.6.0
 
 ENV GOPATH /app/gopath
 
